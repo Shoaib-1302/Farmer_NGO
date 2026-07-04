@@ -32,12 +32,12 @@ Greenipath_Assignment/
 │   │                                 all maps live here (no separate map files are generated)
 │   └── .streamlit/config.toml       Forces a legible light theme regardless of OS/browser dark mode
 │
-├── 5_Dashboard/                  Deployable copy of the Streamlit app
+├── 4_Dashboard/                  Deployable copy of the Streamlit app
 │   ├── app.py                       Identical to 3_Scripts/dashboard_app.py
 │   ├── requirements.txt             Dependencies for the dashboard specifically
 │   └── screenshots/                 Put dashboard screenshots here after running it
 │
-├── 6_Report/
+├── 5_Report/
 │   └── Methodology.md               Full write-up of the approach, checks, and headline findings
 │                                     (Final_Report.pdf is a generated deliverable — see note below)
 │
@@ -64,7 +64,7 @@ work. That folder is safe to delete — it's regenerated automatically.
 
 ### 3. Run the dashboard
 ```bash
-cd 3_Scripts        # or: cd 5_Dashboard
+cd 3_Scripts        # or: cd 4_Dashboard
 streamlit run dashboard_app.py     # or: streamlit run app.py
 ```
 The dashboard reads `2_Cleaned_Data/Cleaned_Master.xlsx` directly, so it only needs the
@@ -82,7 +82,7 @@ toggles a "Polygon Overlaps" overlay showing every overlapping-plot pair as a co
 line, colored by severity (red ≥20% overlap, amber 10–20%). Everything lives in the
 dashboard — no separate map HTML files are generated.
 
-## About `6_Report/Final_Report.pdf`
+## About `5_Report/Final_Report.pdf`
 This is a generated deliverable (a narrative write-up of findings for a non-technical
 audience) and, like the other generated outputs, isn't pre-built into this package —
 `Methodology.md` in the same folder already contains the full methodology and headline
