@@ -39,7 +39,7 @@ Greenipath_Assignment/
 │
 ├── 5_Report/
 │   ├── Methodology.md                Full write-up of the approach, checks, and headline findings
-│   └── report.md                     Organization + Monitoring/QA report (portfolio totals,
+│   └── Report.md                     Organization + Monitoring/QA report (portfolio totals,
 │                                       species & carbon breakdown, top problem villages)
 │                                     (Final_Report.pdf is a generated deliverable — see note below)
 │
