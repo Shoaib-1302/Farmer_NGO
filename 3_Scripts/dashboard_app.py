@@ -237,7 +237,7 @@ loaded = load_all()
 
 st.markdown("""
 <div class="gp-header">
-    <div class="eyebrow">Greenipath &middot; Farmer Plantation Programme</div>
+    <div class="eyebrow">Farmer Plantation Programme</div>
     <h1>🌳 Makkala Vikasa &amp; YIDS — Plantation Intelligence Dashboard</h1>
     <p>A live, filterable view of the cleaned and GIS-validated master dataset — severity-scored
     data quality, spatial validation, species mix, and estimated carbon potential across both NGOs.</p>
