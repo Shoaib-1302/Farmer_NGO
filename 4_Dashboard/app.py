@@ -603,4 +603,4 @@ with tab_actions:
 
 st.markdown(
     f'<div style="text-align:center;color:{MUTED};font-size:12px;margin-top:30px;">'
-    'Greenipath Assignment — Data Scientist Assessment Dashboard</div>', unsafe_allow_html=True)
+    'Data Scientist Assessment Dashboard</div>', unsafe_allow_html=True)
