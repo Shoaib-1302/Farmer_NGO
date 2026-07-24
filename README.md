@@ -1,4 +1,4 @@
-# Greenipath Assignment — Makkala Vikasa (NGO_1) & YIDS (NGO_2) Plantation Data
+# Makkala Vikasa (NGO_1) & YIDS (NGO_2) Plantation Data
 
 Data cleaning, GIS validation, overlap detection, and an interactive dashboard for two
 NGOs' farmer plantation field data (Kobo Collect Excel exports + KML/KMZ boundary files).
@@ -6,7 +6,7 @@ NGOs' farmer plantation field data (Kobo Collect Excel exports + KML/KMZ boundar
 ## Folder structure
 
 ```
-Greenipath_Assignment/
+Assignment/
 │
 ├── 1_Raw_Data/                  Input files (as provided)
 │   ├── NGO_1.xlsx                 Makkala Vikasa Kobo export
